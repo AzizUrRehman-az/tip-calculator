@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  background-color: firebrick;
+  width: 270px;
+  height: 380px;
+  padding: 20px;
+  position: relative;
+  top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+h1 {
+  background-color: white;
+  color: firebrick;
+  padding: 2px;
+  text-align: center;
+  border-radius: 5px;
+}
+p {
+  color: white;
+  line-height: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+label {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  left: 65px;
+}
+input {
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 20px;
+  outline: none;
+  position: relative;
+  left: 8px;
+}
+#btnSubmit {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px 7px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid white;
+  position: relative;
+  left: 70px;
+}
+#btnSubmit:hover {
+  background-color: firebrick;
+  color: white;
+}
+#output {
+  border-top: 2px solid white;
+  color: white;
+  line-height: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: justify;
+  padding-top: 10px;
+}
